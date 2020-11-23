@@ -18,17 +18,28 @@
          vertical-align:middle; 
          background-color:darkgrey; 
          border:1px solid darkgrey;
-         float:none; 
-         font-size:5em}
+         float:left;
+         width:70%;
+         height:300px;
+         font-size:4em}
+         
+    #dvf{text-align:center; 
+         vertical-align:middle; 
+         background-color:#9CBDCD; 
+         border:1px solid #9CBDCD;
+         float:left;
+         width:29%;
+         height:300px; 
+         font-size:3em}
 
     #dvb{text-align:center; 
          vertical-align:middle;
-         background-color:white; 
-         border:1px solid darkgrey;
+         background-color:darkgrey; 
+         border:1.2px solid white;
          width: 90%;
          height: 190px;
          float:left;
-         font-size:2em}
+         font-size:1.5em}
 
     #dvc{text-align:center;
          vertical-align:middle; 
@@ -48,9 +59,10 @@
          vertical-align:middle;
          width:9%;
          height: 190px;
-         border:1px solid darkgrey;
-         background-color:white;
+         border:1.2px solid white;
+         background-color:darkgrey;
          float:left}
+         
 
 	a{text-decoration: none;}
 
@@ -98,6 +110,9 @@
 
     </div>
 
+	<div id="dvf" onclick="location.href='List2.jsp'">
+		<h1>사회</h1>
+	</div>
    
 
     <div id="dvd">
