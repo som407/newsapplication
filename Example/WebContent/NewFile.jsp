@@ -3,15 +3,8 @@
     pageEncoding="UTF-8"%>
 
 <%@ page import="java.io.BufferedReader"%>
-
- 
-
 <%@page import="java.io.FileReader"%>
-
- 
-
 <%@page import="java.io.IOException"%>
-
 <%@page import="java.lang.Integer" %>
 
 <!DOCTYPE html>
@@ -44,7 +37,7 @@
 
         		int i = 0;
 
-                br = new BufferedReader(new FileReader("C:/Users/samsung/eclipse-workspace/Example/WebContent/WEB-INF/Input2.txt"));
+                br = new BufferedReader(new FileReader("C:/Users/samsung/git/newsapplication/Example/WebContent/WEB-INF/Input2.txt"));
 
                 String line = "";
 
@@ -86,7 +79,7 @@
 
         		int i = 0;
 
-                br1 = new BufferedReader(new FileReader("C:/Users/samsung/eclipse-workspace/Example/WebContent/WEB-INF/Input1.txt"));
+                br1 = new BufferedReader(new FileReader("C:/Users/samsung/git/newsapplication/Example/WebContent/WEB-INF/Input1.txt"));
 
                 String line = "";
 

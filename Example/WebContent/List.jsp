@@ -26,7 +26,7 @@
          background-color:white; 
          border:1px solid darkgrey;
          width: 90%;
-         height: 200px;
+         height: 190px;
          float:left;
          font-size:2em}
 
@@ -34,7 +34,7 @@
          vertical-align:middle; 
          background-color:white;
          width:80%;
-         height:200px;
+         height:190px;
          float:left;}
 
     #dvd{text-align:center; 
@@ -47,7 +47,7 @@
     #dve{text-align:center;
          vertical-align:middle;
          width:9%;
-         height: 200px;
+         height: 190px;
          border:1px solid darkgrey;
          background-color:white;
          float:left}
@@ -65,7 +65,7 @@
         try {
 			String[] news = new String[50];
         	int i = 0;
-            br = new BufferedReader(new FileReader("C:/Users/samsung/eclipse-workspace/Example/WebContent/WEB-INF/Input2.txt"));
+            br = new BufferedReader(new FileReader("C:/Users/samsung/git/newsapplication/Example/WebContent/WEB-INF/Input2.txt"));
             String line = "";
             while((line = br.readLine()) != null) {
             	news[i]=line;
