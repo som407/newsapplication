@@ -107,7 +107,7 @@
 
                 br = new BufferedReader(new FileReader("C:/Users/USER/text/Input2.txt"));
 
-                String line = "";
+                String line = ""; //ab
 
                 while((line = br.readLine()) != null){
 
