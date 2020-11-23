@@ -1,0 +1,2 @@
+# newsapplication
+# somi invitation accept
